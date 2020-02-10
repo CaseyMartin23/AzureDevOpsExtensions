@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "name": "My first sample extension",
   "description": "A sample Visual Studio Services extension.",
-  "publisher": "fabrikamdev",
+  "publisher": "CaseyMartin",
   "categories": ["Azure Boards"],
   "targets": [
     {
@@ -37,6 +37,25 @@
         "icon": "images/icon.png",
         "groupId": "actions",
         "uri": "action.html"
+      }
+    },
+    {
+      "id": "HelloWorldWidget",
+      "type": "ms.vss-dashboards-web.widget",
+      "targets": ["ms.vss-dashboards-web.widget-catalog"],
+      "properties": {
+        "name": "Hello World Widget",
+        "description": "My first widget",
+        "catalogIconUrl": "img/CatalogIcon.png",
+        "previewImageUrl": "img/preview.png",
+        "uri": "hello-world.html",
+        "supportedSizes": [
+          {
+            "rowSpan": 1,
+            "columnSpan": 2
+          }
+        ],
+        "supportedScopes": ["project_team"]
       }
     }
   ],
