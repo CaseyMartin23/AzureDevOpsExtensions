@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 1,
+  "id": "test-extension",
+  "publisher": "CaseyMartin",
+  "version": "1.0.392",
+  "name": "Extension Sample",
+  "description": "Azure DevOps extension sample",
+  "categories": ["Azure Boards"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "icons": {
+    "default": "logo.png"
+  },
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "files": [
+    {
+      "path": "static",
+      "addressable": true
+    },
+    {
+      "path": "dist",
+      "addressable": true
+    }
+  ]
+}

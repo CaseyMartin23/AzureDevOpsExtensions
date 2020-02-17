@@ -1,0 +1,15 @@
+{
+  "contributions": [
+    {
+      "id": "hub",
+      "type": "ms.vss-web.hub",
+      "targets": ["ms.vss-work-web.work-hub-group"],
+      "properties": {
+        "name": "Sample hub",
+        "uri": "dist/Hub/Hub.html",
+        "icon": "asset://static/sample-icon.png",
+        "supportsMobile": true
+      }
+    }
+  ]
+}
