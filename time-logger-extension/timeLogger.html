@@ -13,10 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Time Logger</title>
     <script src="sdk/scripts/VSS.SDK.js"></script>
-    <script type="text/javascript">
-      VSS.init();
-      VSS.notifyLoadSucceeded();
-    </script>
+    <script src="timeLogger-common.js"></script>
   </head>
   <body>
     <h1>This contains words ..</h1>
@@ -34,16 +31,11 @@
     <form onsubmit="onSubmitter();">
       <label>
         Ticket Name:
-        <input type="text" name="name">
+        <input id="userName" type="text" name="name">
       </label>
       <input type=""
     </form>
 
     <button class="ui secondary button">This is a button!</button>
-    <script type="text/javascript">
-      const onSubmitter = e => {
-
-      }
-    </script>
   </body>
 </html>

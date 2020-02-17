@@ -37,7 +37,6 @@
       }
     }
   ],
-  "baseUri": "http://localhost:3001/",
   "scopes": ["vso.work"],
   "files": [
     {
